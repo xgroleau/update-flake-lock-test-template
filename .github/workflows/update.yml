@@ -13,4 +13,4 @@ jobs:
       - name: Update flake.lock
         uses: xgroleau/update-flake-lock@b45e512eb7676e20923dc0471878ac628fdc8943
         with:
-          nix-options: --debug
+          nix-options: --debug --log-format raw
