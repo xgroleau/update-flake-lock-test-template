@@ -11,6 +11,6 @@ jobs:
       - name: Install Nix
         uses: DeterminateSystems/nix-installer-action@v1
       - name: Update flake.lock
-        uses: xgroleau/update-flake-lock@5a7892d53493794e73a3f5a30e05f7471ce5019f
+        uses: xgroleau/update-flake-lock@2618fcf76c5418431d0b1adee80c97254eba4951
         with:
           nix-options: --debug --log-format raw
